@@ -2,7 +2,7 @@
 using namespace std;
 
 Massage::Massage(int dur, double price, string time)
-    : Service("Personalized therapeutic massage", dur, price),
+    : Service("Massage", dur, price),
       appointmentTime(time), clientType("New") {}
 
 void Massage::setClientType(string type) {
