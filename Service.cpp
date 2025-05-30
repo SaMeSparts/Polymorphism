@@ -6,4 +6,3 @@ using namespace std;
 Service::Service(string name, int dur, double price)
     : serviceName(name), duration(dur), basePrice(price) {}
 
-Service::~Service() {}
